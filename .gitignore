@@ -1,53 +1,9 @@
-# OS / editor noise
-.DS_Store
-Thumbs.db
-*.tmp
-*.bak
-*.swp
-*.swo
-~$*
+# CODESYS project metadata / autosave
+*.autosave
+*.project
 
-# IDE settings
-.vscode/
-.idea/
+# CODESYS precompile cache
+*.precompilecache
 
-# CODESYS generated / local files
-*.compileinfo
-*.backup
-*.~*
-*.log
-
-# Boot application / runtime artifacts
-Boot/
-PlcLogic/
-*.app
-*.crc
-*.ret
-*.sym
-*.xml.bak
-
-# Build / export artifacts
-bin/
-build/
-dist/
-out/
-exports/
-
-# Online change / temporary files
-*.TMP
-*.temp
-
-# Archives / release packages
-*.zip
-*.rar
-*.7z
-
-# Test / cache
-coverage/
-.cache/
-__pycache__/
-
-# Local environment-specific config
-.env
-.env.*
-local.settings.json
+# User-specific option files
+*.opt
