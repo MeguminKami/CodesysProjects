@@ -1,9 +1,2 @@
-# CODESYS project metadata / autosave
-*.autosave
-*.project
-
-# CODESYS precompile cache
-*.precompilecache
-
 # User-specific option files
 *.opt
